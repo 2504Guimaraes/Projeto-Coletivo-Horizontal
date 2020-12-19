@@ -503,7 +503,7 @@ pai tentar manter um proporção com flex só a atrapalha.
 
 /*---------- Media Query - Tela Menor: Mozilla ----------*/
 
-@media all and (min--moz-device-pixel-ratio:0) and (max-width: 1390px){
+@media all and (min--moz-device-pixel-ratio:0) and (max-width: 1190px){
 	#container{
 		width: 90%;
 	}#logotipo-img{
@@ -604,7 +604,7 @@ pai tentar manter um proporção com flex só a atrapalha.
 
 /*---------- Media Query - Tela Menor:  Chrome ----------*/
 
-@media (max-width: 1390px){
+@media (max-width: 1190px){
 	#container{
 		width: 90%;
 	}#logotipo-img{
