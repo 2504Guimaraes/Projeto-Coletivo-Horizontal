@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FFFFFF;}
+	.st1{fill:#E6E7E8;}
+	.st2{fill:#EAA22F;}
+	.st3{fill:#E09112;}
+	.st4{fill:#31BAFD;}
+	.st5{fill:#2B9ED8;}
+	.st6{fill:#FEE187;}
+	.st7{fill:#FFC61B;}
+	.st8{fill:#59595B;}
+	.st9{fill:#272525;}
+	.st10{fill:#D0D1D3;}
+</style>
+<circle class="st0" cx="256" cy="256" r="256"/>
+<path class="st1" d="M509.6,290.8l-59.4-59.4l-16.7,17.2l-60.2-60.2l-28.8-7l-33.2,21.3l50.7,50.7l-39.7,0.4l-132-132l-25.6,3.4
+	l-14.9,36.5l92.8,92.8L56.9,256l120.2,120.2l-34.8,22L256,512l0,0C385.6,512,492.7,415.7,509.6,290.8z"/>
+<path class="st2" d="M440.4,284.4H113.8v-56.9h326.6c8.1,0,14.7,6.6,14.7,14.7v27.4C455.1,277.9,448.5,284.4,440.4,284.4z"/>
+<path class="st3" d="M113.8,255.6v28.9h326.6c8.1,0,14.7-6.6,14.7-14.7v-14.1L113.8,255.6L113.8,255.6z"/>
+<rect x="113.8" y="227.6" class="st4" width="302.8" height="56.9"/>
+<rect x="113.8" y="256" class="st5" width="302.8" height="28.4"/>
+<polygon class="st6" points="113.8,227.6 56.9,256 113.8,284.4 "/>
+<polygon class="st7" points="57.8,255.6 56.9,256 113.8,284.4 113.8,255.6 "/>
+<polygon class="st8" points="56.9,256 83.5,269.3 83.5,242.7 "/>
+<polygon class="st9" points="57.8,255.6 56.9,256 83.5,269.3 83.5,255.6 "/>
+<circle class="st0" cx="170.7" cy="142.2" r="28.4"/>
+<path class="st10" d="M170.7,113.8c-0.2,0-0.4,0-0.6,0v56.8c0.2,0,0.4,0,0.6,0c15.7,0,28.4-12.7,28.4-28.4S186.4,113.8,170.7,113.8z
+	"/>
+<rect x="142.2" y="312.9" class="st7" width="85.3" height="85.3"/>
+<rect x="184.3" y="312.9" class="st2" width="43.2" height="85.3"/>
+<polygon class="st0" points="311.2,202.6 329.9,141.7 373.3,188.2 "/>
+<polygon class="st10" points="329.9,141.7 329.7,142.2 343.7,195.1 373.3,188.2 "/>
+</svg>

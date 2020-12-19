@@ -1,0 +1,52 @@
+@charset "utf-8";
+
+body{
+	font-size: 100%;
+}
+
+.painel-lateral{
+	display: none;
+	height: 100%;
+	width: 0;
+	position: fixed;
+	z-index: 21;
+	top: 0; right: 0;
+	background-color: #fff;
+	overflow-x: hidden;
+	transition: .5s; padding-top: 60px;
+	box-shadow: none;
+}
+
+.painel-lateral a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 1.56rem;
+  color: #111;
+  display: block;
+  transition: .3s ease-in-out;
+}
+
+.painel-lateral a:hover{
+	color: #4e61c7;
+}
+
+.painel-lateral .botao-fechar{
+	position: absolute;
+	top: 0px; right: 25px;
+	font-size: 2.25rem;
+	margin-left: 50px;
+}
+
+
+@media (max-width: 1390px){
+	.painel-lateral{
+		display: block;
+	}
+}
+@media (max-width: 450px){
+	.painel-lateral{
+		padding-top: 15px;
+	}.painel-lateral a{
+		font-size: 1.125rem;
+	}
+}

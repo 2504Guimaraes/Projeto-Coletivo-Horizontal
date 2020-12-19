@@ -1,0 +1,27 @@
+@charset "utf-8";
+
+/*---------- Fontes Usadas: ----------*/
+
+/* Titillium Web: */
+
+@font-face{
+	font-family: TitilliumRegular;
+	src: url('font/TitilliumWeb/TitilliumWeb-Regular.ttf');
+}
+
+@font-face{
+	font-family: TitilliumBold;
+	src: url('font/TitilliumWeb/TitilliumWeb-Bold.ttf');
+}
+
+@font-face{
+	font-family: TitilliumSemiBold;
+	src: url('font/TitilliumWeb/TitilliumWeb-SemiBold.ttf');
+}
+
+/* Roboto: */
+
+@font-face{
+	font-family: Roboto;
+	src: url(font/Roboto/Roboto-Regular.ttf);
+}

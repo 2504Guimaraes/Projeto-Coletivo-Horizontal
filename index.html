@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Bem vindo a Coletivo Hit Horizontal!</title>
+		<link rel="stylesheet" href="./css/style.css">
+		<link rel="stylesheet" href="./css/footer.css">
+		<link rel="stylesheet" href="./css/style-fontes.css">
+		<link rel="stylesheet" href="./css/painel-lateral.css"> 
+		<link rel="stylesheet" href="./css/botaoPraCima.css">
+		<link rel="shortcut icon" href="./favicon/Coletivo_Hit_Horizontal-Favicon.png">
+	</head>
+	<body>
+
+		<div id="painel-lateral" class="painel-lateral">
+			<a href="javascript:void(0)" class="botao-fechar" onclick="fechar_painel()">&times;</a>
+			<a href="#container-quem-somos">Quem Somos</a>
+			<a href="#container-pacotes">Nossos Serviços</a>
+			<a href="#pacotes">Pacotes</a>
+			<a href="#footer">Contato</a>
+		</div>
+		
+		<a id="botao-Pra-Cima" onclick="irPraCima()">
+			<i id="flexa-pra-cima"></i>
+		</a>
+
+		<header id="barra_de_navegacao">
+			<div id="container">
+
+				<a href="index.html">
+					<img id="logotipo-img" alt="img-logotipo" src="./img/logotipo.png">
+				</a>
+				<ul id="lista-navbar">
+					<li class="indice-lista-navbar"><a class="link-navbar" href="#container-quem-somos">Quem Somos</a></li>
+					<li class="indice-lista-navbar"><a class="link-navbar" href="#container-pacotes">Nossos Serviços</a></li>
+					<li class="indice-lista-navbar"><a class="link-navbar" href="#pacotes">Pacotes</a></li>
+					<li class="indice-lista-navbar"><a id="link-contato" class="link-navbar-contato" href="#footer">Contato</a></li>
+				</ul>
+				<ul id="lista-hamburguer-button">
+					<li id="indice-hambuerbuer-btn">
+						<a id="link-btn-hamburguer" onclick="abrirPainel()">
+							<img id="hamburuger-btn-simbolo" alt="hamburguer-button" src="./img/menu-button-branco.svg">
+						</a>
+					</li>
+				</ul>
+
+			</div>
+		</header>
+
+		<section id="container-header">
+			<div id="img-fundo-header">
+				<div id="gradiente-img-header">
+					<div id="area-txt-header">
+						
+						<div id="container-largura-txt-header" class="container-largura">
+							<h2 id="txt-grande-header" class="paragrafo-header">Não tenha medo de mostrar sua empresa ao mundo, mostre do que voce é capaz!</h2>
+							<p id="txt-pequeno-header" class="paragrafo-header">Planejamento estratégico para fazer sua marca trabalhar por você.
+								Para te guiar em sua jornada pelo meio digital, disponibilizamos gratuitamente
+								nosso diagnóstico de marketing digital.
+							</p>
+							<div id="container-btnlink-contatenos">
+								<a id="btn-link-contatenos" href="#footer" onclick="javascript:void(0)">Contate-nos</a>
+							</div>
+						</div>
+
+					</div>
+					<div id="img-organica-header">
+						<img id="img-organica" alt="img-organica-quem-somos" src="./img/img-organica-onda.svg">
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="container-quem-somos">
+			<div id="img-organica-quemSomos"></div>
+			<div id="conteudo-quemSomos">
+				<div id="container-img-txt-Qsomos">
+					
+					<div id="content-img-QSomos" class="img-ou-txt-QSomos">
+						<img id="img-QuemSomos" alt="img-Quem_Somos" src="./img/img-Quem-Somos.png">
+					</div>
+					<div id="content-txt-QSomos" class="img-ou-txt-QSomos">
+						<h2 id="txt-quemSomos-grande">Quem somos nós? Conheça o Coletivo.</h2>
+						<p class="txt-quemSomos-pequeno">Somos uma agência digital colaborativa, uma parceria de
+							mentes criativas em busca de um mercado virtual mais
+							diversificado. </p>
+						<p class="txt-quemSomos-pequeno">Acreditamos que o marketing digital não
+							deve ser visto apenas como item de luxo de grandes
+							corporações, mas como uma ferramenta para todos.</p>
+					</div>
+
+				</div>
+			</div>
+		</section>
+
+		<section id="container-pacotes">
+			<div id="img-organica-Servicos"></div>
+
+			<div id="conteudo-Servicos">
+				<div id="container-principal-cont-Servicos">
+					<div class="txt-service" id="txt-servicos">
+						<h2 id="titulo-sericos">
+							Veja quais são os nossos produtos.
+						</h2>
+					</div>
+					<div class="txt-service" id="servicos-servicos">
+						
+						<div class="servicos-e-img" id="img-servicos">
+							<img id="triangulo" alt="img-Quem_Somos" src="./img/img-trianguloAzul.png">
+						</div>
+						<div class="servicos-e-img" id="os-servicos">
+							<div id="coluna-1" class="colunas-servicos">
+								
+								<div class="servico escuro">
+									<div class="conteudo-do-servico">
+										<img class="img-servico" alt="img-redes_sociais" src="./img/img-redes-sociais.svg">
+										<p class="servico-txt-grande">Gestão de Redes Sociais</p>
+										<p class="servico-txt-pequeno">Seja o melhor amigo do seu cliente
+											nas redes sociais.</p>
+									</div>
+								</div>
+								<div id="servico-meio" class="servico claro">
+									<div class="conteudo-do-servico">
+										<img class="img-servico" alt="img-identidade_visual" src="./img/img-identidade-visual.svg">
+										<p class="servico-txt-grande">Identidade Visual</p>
+										<p class="servico-txt-pequeno">Sua marca sempre contando a
+											historia da sua empresa.</p>
+									</div>
+								</div>
+								<div class="servico escuro">
+									<div class="conteudo-do-servico">
+										<img class="img-servico" alt="img-criacao_sites" src="./img/img-criacao-de-sites.svg">
+										<p class="servico-txt-grande">Criação de Sites</p>
+										<p class="servico-txt-pequeno">Sua marca sempre presente em
+											todos os lugares, o tempo todo.</p>
+									</div>
+								</div>
+
+							</div>
+							<div id="coluna-2" class="colunas-servicos">
+								
+								<div id="first-servi-coluna2" class="servico claro">
+									<div class="conteudo-do-servico">
+										<img class="img-servico" alt="img-fotografia_e_video" src="./img/img-fotografia_e_video.svg">
+										<p class="servico-txt-grande">Fotografia e Video</p>
+										<p class="servico-txt-pequeno">Imagens feitas para ser visto e se
+											destacar dos demais.</p>
+									</div>
+								</div>
+								<div id="servico-meio2" class="servico escuro">
+									<div class="conteudo-do-servico">
+										<img class="img-servico" alt="img-materiais_impressos" src="./img/img-materiais-impressos.svg">
+										<p class="servico-txt-grande">Materiais Impressos</p>
+										<p class="servico-txt-pequeno">Transforme todo contato em um
+											cliente em potencial.</p>
+									</div>
+								</div>
+								<div class="servico claro">
+									<div class="conteudo-do-servico">
+										<img class="img-servico" alt="img-consultoria-de-marketing" src="./img/img-consultoria-de-marketing.svg">
+										<p class="servico-txt-grande">Consultoria de Marketing</p>
+										<p class="servico-txt-pequeno">Imagens feitas para ser visto e se
+											destacar dos demais.</p>
+									</div>
+								</div>
+
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</section>
+
+
+		
+
+		<section id="pacotes">
+
+			<div id="pacotes-txt">
+				<h2 class="txt-pacotes">Escolha qual plano de serviço lhe atende mais</h2>
+				<p class="txt-pacotes">Leia com mais detalhes a individualidade de cada plano abaixo.</p>
+			</div>
+			<div id="pacotes-container">
+				
+				<div class="pacote">
+					<div class="pacote-conteudo">
+						<div class="container-sem-botao">
+							<p class="txt-pacote-grande">Básico</p>
+							<p class="txt-pacote-medio">Facebook/Instagram</p>
+							<p class="txt-pacote-preco"><span class="sifrao-pacote">R$</span>350,00</p>
+							<p class="item-pacote">2 postagens por semana.</p>
+							<p class="item-pacote">Personalização dos perfis.</p>
+							<p class="item-pacote">Criação e planegamento do conteúdo.</p>
+							<p class="item-pacote">Relatório de resultados.</p>
+							<p class="item-pacote">Gestão de Facebook Adwords.</p>
+						</div>
+						<div class="container-botao">
+							<button type="button" onclick="javascript:void(0)">Comprar</button>
+						</div>
+					</div>
+				</div>
+				<div class="pacote">
+					<div class="pacote-conteudo">
+						<div class="container-sem-botao">
+							<p class="txt-pacote-grande">Intermediário</p>
+							<p class="txt-pacote-medio">Facebook/Instagram</p>
+							<p class="txt-pacote-preco"><span class="sifrao-pacote">R$</span>490,00</p>
+							<p class="item-pacote">2 postagens por semana.</p>
+							<p class="item-pacote">Personalização dos perfis.</p>
+							<p class="item-pacote">Criação e planegamento do conteúdo.</p>
+							<p class="item-pacote">Relatório de resultados.</p>
+							<p class="item-pacote">Gestão de Facebook.</p>
+							<p class="item-pacote">Mini vídeoclip pensal de 30’.</p>
+						</div>
+						<div class="container-botao">
+							<button type="button" onclick="javascript:void(0)">Comprar</button>
+						</div>
+					</div>
+				</div>
+				<div id="ultimo_pacote" class="pacote">
+					<div class="pacote-conteudo">
+						<div class="container-sem-botao">
+							<p class="txt-pacote-grande">Avançado</p>
+							<p class="txt-pacote-medio">Facebook/Instagram</p>
+							<p class="txt-pacote-preco"><span class="sifrao-pacote">R$</span>790,00</p>
+							<p class="item-pacote">2 postagens por semana.</p>
+							<p class="item-pacote">Personalização dos perfis.</p>
+							<p class="item-pacote">Criação e planegamento do conteúdo.</p>
+							<p class="item-pacote">Relatório de resultados.</p>
+							<p class="item-pacote">Gestão de Facebook.</p>
+							<p class="item-pacote">Mini vídeoclip pensal de 30’.</p>
+							<p class="item-pacote">Suporte em 1 evento Bimestral.</p>
+						</div>
+						<div class="container-botao">
+							<button type="button" onclick="javascript:void(0)">Comprar</button>
+						</div>
+					</div>
+				</div>
+
+
+			</div>
+
+		</section>
+
+		
+		<!-- Parte da Nathalia: -->
+
+
+		<footer id="footer" class="footer">
+				<div class="container_footer">
+					<div class="container_principal">
+						<div class="container_sobre">
+							<h2 class="sobre size_hum"> Sobre nós</h2>
+							<p  class="sobre font_sobre">Planejamento estratégico para fazer sua marca trabalhar por você. Para te guiar em sua jornada pelo meio digital, disponibilizamos gratuitamente nosso diagnóstico de marketing digital.</p>
+						</div>
+						
+						<nav class="container_nav ">
+							<h2 class="size_hum navegacao">Navegação</h2>
+							<ul id="links-do-footer" >
+								<li class="navegacao"><a class="nav_link" href="#container-quem-somos">Quem Somos</a></li>
+								<li class="navegacao"><a class="nav_link" href="#container-pacotes">Nossos Serviços</a></li>
+								<li class="navegacao"><a class="nav_link" href="#pacotes">Pacotes</a></li>
+							</ul>
+						</nav>
+						
+						<div class="container_contato">
+						<form  id="form" method="post">
+							<h1 class="size_hum">Contate-nos</h1>
+							<p>
+								<label>
+									<input class="name_input" type="text" name="name" id="name" placeholder="Seu Nome">
+								</label>
+							</p>
+							<p>
+								<label>
+									<input class="name_input" type="email" name="email" id="email" placeholder="Seu Email">
+								</label>
+							</p>
+							<p>
+								<label>
+									<textarea class="name_input" name="mensagem" id="mensagem" placeholder="Sua Mensagem" autocomplete="off" maxlength="300"></textarea>
+								</label>
+							</p>
+							<button class="button_form">Enviar Mensagem</button>
+						
+							</form>
+						</div>
+					</div>
+					
+					<div>
+						<div class="container_midia">
+							
+							<a href="https://www.facebook.com/coletivohorizontal/"><img src="./img/facebook.svg" class="img-responsivo" alt="Facebook"></a>
+							<a href="https://www.instagram.com/coletivohorizontal/"><img src="./img/instagram.svg" class="img-responsivo" alt="instagram"></a>
+							<a href="https://www.linkedin.com/company/coletivohorizontal/"><img src="./img/linkedin.svg" class="img-responsivo" alt="linkedin"></a>
+							<a href="https://twitter.com/coletivohzt"><img src="./img/twitter.svg" class="img-responsivo" alt="twitter"></a>
+						
+						</div>
+						
+						<div class="container_copyrigth">
+							<p class="copyright">Copyright © 2019 | Essa template foi projeta e criada por Ivan Guimarães, Danilo dos Santos Gomes e Nathalia Souza. Propriedade de Coletivo Hit Horizontal</p>
+						</div>
+				
+					</div>
+				</div>
+		</footer>
+			
+
+		<script src="./js/main.js"></script>
+		<script src="./js/rolagem-para-links-internos.js"></script>
+	</body>
+</html>

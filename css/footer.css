@@ -1,0 +1,249 @@
+@charset "utf-8";
+
+*{
+	margin:0;
+	padding:0;
+}
+
+.footer{
+	display: flex;
+	flex-wrap: wrap;
+	height: 53.125rem;/* 850px; */
+	margin: 0 auto;
+	font-size: 0.875em; /*14px*/
+	max-width: 120rem;/*1920px;*/
+	background-color: #3340c1;
+	width: 100%;	
+	color: #fff;
+	font-family: TitilliumRegular ,Helvetica, Verdana, sans-serif;
+}
+
+.container_footer{
+	height: 38.875em;/*622px;*/
+	width:78.13%; /*1500px;*/
+	/*background-color: #000;*/
+	margin: 0 auto;
+	position: relative;
+	top:9rem;/*144px;*/
+}
+
+.container_principal{
+	width: 100%;
+	height: 31.25rem;/*500px;*/
+	/*background-color: pink;*/
+	display: flex;
+}
+/*
+.container_nav{
+	background-color:red;
+}
+
+.container_contato{
+	background-color:black;
+}
+
+.container_sobre{
+	background-color:#ccc;
+}
+*/
+.container_contato, .container_nav, .container_sobre{
+	width: 100%;
+	/*background-color: pink;*/
+	width: 500px; /*500px;*/
+	height:31.25rem;/*500px;*/
+}
+
+
+.size_hum{
+	font-size: 1.5625em;/*25 px*/
+	padding-bottom:1.875rem; /*30px*/
+}
+
+footer nav ul{
+	list-style-type: none;
+	padding: 0px;
+}
+.nav_link{
+	color:#fff;
+	text-decoration: none;
+}
+
+#name, #email, #mensagem{
+	background-color: #455aef;
+	border: 0px solid;
+	border-radius: 1.875rem; /*30px*/
+	padding-left: 0.9375rem;/*15*/
+}
+#email, #mensagem, .button_form{
+	margin-top: 15px;
+}
+
+.navegacao{
+	padding-left:20%;
+	padding-right: 20%
+	
+}
+.sobre{
+	padding-right: 40%;
+}
+.nav_link:hover{
+	color: #90A8FC;
+    transition: .5s ease-in;
+}
+
+.font_sobre{
+	font-family:TitilliumRegular, Helvetica, Verdana, sans-serif;
+	font-size: 0.875rem;
+}
+
+.name_input{
+	width: 75%; /*375px*/
+	color:#fff;
+	font-size: 0.875rem; /*15px*/
+	font-family: TitilliumSemiBold ,Helvetica, Verdana, sans-serif;
+}
+
+#name, #email{
+	height: 2.5rem;/*40px*/
+}
+
+#mensagem{
+	height: 5rem; /*80px*/
+	padding-top: 10px;
+}
+
+::-webkit-input-placeholder {
+   color: #fff;
+ /*  padding-top: ;*/
+}
+
+.button_form{
+	width: 160px; 
+	background: linear-gradient(45deg, #2196f3, #3dbdf4);
+	color: #fff;
+	border-radius: 1.25rem; /*20px*/
+	border: 0px solid;
+	height: 2.1875rem; /*35px*/
+	font-family: TitilliumRegular ,Helvetica, Verdana, sans-serif;
+}
+.button_form:hover{
+	background: linear-gradient(45deg, #1bb9d4,#198be4);
+    transition: 1.2s ease-in;
+}
+.container_redesocial{
+	width: 250px;/*250px;*/
+	height: 3.5rem;/*56px;*/
+	margin: 0 auto;
+	background-color: gray;
+}
+.container_midia{
+	width:260px;/*260px;*/
+	height:3.5rem; /*56px;*/
+	/*background-color:purple;*/
+	margin: 0 auto;
+}
+
+img.img-responsivo{
+	width:21.54%;/*56px;*/
+	height: 3.5rem; /*56px;*/
+	margin: 0 0 0 5px;
+	border-radius: 50%;
+    box-shadow: 1px 3px 10px #182388;
+}
+.copyright{
+	text-align: center;
+    height:1.70%;/*32.728px;*/
+    /*background-color: gray;*/
+    border: 0px;
+    padding-top:5%;
+    box-sizing: border-box;
+    font-size: 0.875rem;
+    color:#90a8fc;
+    margin: 0 auto;
+}
+.container_copyrigth{
+	width:35%;/*500px;*/
+	height:3.5em;/*56px;*/
+	/*background-color:green;*/
+	margin: 0 auto;
+	font-family: Titillium, Helvetica, Verdana, sans-serif;
+}
+
+@media (min-width: 2379px){
+	.container_contato, .container_nav, .container_sobre{
+		width: 100% !important;
+	}.button_form {
+		width: 13rem;
+	}
+}
+
+@media screen and (max-width: 1390px){
+
+	.footer{
+		width: 100%;
+		height: 1300px;
+	}
+
+	.container_principal{
+		display: block;
+	}
+	.container_contato{
+		width: 100%;
+		height: 400px;
+	}
+
+	.container_nav, .container_sobre{
+		width: 100%;
+		height:220px;/*500px;*/
+	}
+	.container_sobre{
+		margin-top: 50px;
+	}
+	.sobre{
+		padding-right: 25px;
+		max-width: 90%;
+	}
+	.navegacao{
+		padding-left:0;
+		padding-right: 0;
+	}
+	.size_hum{
+		padding-bottom: 50px;
+	}
+	#name, #email, #mensagem{
+		width: 94%;
+		padding-left: 20px;
+	}
+	.button_form{
+		width: 45%;
+		min-width: 9.38rem; 
+		max-width: 13.38rem; 
+	}
+
+	.container_copyrigth{
+		width: 95%;/*500px;*/
+		height:56px;/*56px;*/
+		/*background-color:green;*/
+	}
+	.container_midia{
+		width:250px;/*260px;*/
+		height:56px; /*56px;*/
+		/*background-color:purple;*/
+		margin: 0 auto;
+		margin-top: 350px;
+	}
+
+
+/*
+.container_nav{
+	background-color:red;
+}
+
+.container_contato{
+	background-color:black;
+}
+
+.container_sobre{
+	background-color:#ccc;
+}*/
+}

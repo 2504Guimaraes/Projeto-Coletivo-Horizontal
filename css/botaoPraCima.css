@@ -1,0 +1,28 @@
+@charset "utf-8";
+
+#botao-Pra-Cima{
+	/*aparência do btn: */
+	display: block;
+	height: 40px; width: 40px;
+	background-color: #3F51B5;
+	color: #fff;
+	box-shadow: 2px 2px 4px 0px #333;
+	position: fixed;
+	right: 30px; bottom: 30px;
+	border-radius: 32%;
+	z-index: 3;
+}
+#botao-Pra-Cima:hover{
+	background-color: #333;
+	opacity: .5;
+	transition: .5s ease-in-out;
+	cursor: pointer;
+}
+#flexa-pra-cima{
+	border: solid white;
+	border-width: 0px 4px 4px 0px;
+	display: inline-block;
+	padding: 4px;
+	margin: 16px 13px;
+	transform: rotate(-135deg);
+}
